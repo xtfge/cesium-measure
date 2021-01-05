@@ -1,0 +1,163 @@
+{
+  "id": "1578840",
+  "name": "共性",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10946255",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "10946256",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "10957091",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "10958080",
+      "name": "加",
+      "font_class": "jia",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "10958084",
+      "name": "减",
+      "font_class": "jian",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "12368943",
+      "name": "点数据",
+      "font_class": "dianshuju",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "12369341",
+      "name": "删除",
+      "font_class": "xiala",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "12369862",
+      "name": "搜索",
+      "font_class": "dianshuju1",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "12370348",
+      "name": "下拉",
+      "font_class": "xia1",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "12371099",
+      "name": "小窗口的拉伸",
+      "font_class": "xiala1",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    },
+    {
+      "icon_id": "12375963",
+      "name": "显示",
+      "font_class": "shuaxin1",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "12376005",
+      "name": "不显示",
+      "font_class": "shuaxin2",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "12376182",
+      "name": "小框",
+      "font_class": "daoru1",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "12376223",
+      "name": "选中小框",
+      "font_class": "daoru2",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "12389273",
+      "name": "标题",
+      "font_class": "guanbi1",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "12392047",
+      "name": "三维模型",
+      "font_class": "ceju2",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "12392065",
+      "name": "文字标绘",
+      "font_class": "ceju3",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "12392084",
+      "name": "矢量线",
+      "font_class": "ceju4",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "12392261",
+      "name": "面标",
+      "font_class": "ceju5",
+      "unicode": "e68a",
+      "unicode_decimal": 59018
+    },
+    {
+      "icon_id": "12479702",
+      "name": "测高",
+      "font_class": "cegao",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "12479732",
+      "name": "测距",
+      "font_class": "ceju1",
+      "unicode": "e690",
+      "unicode_decimal": 59024
+    },
+    {
+      "icon_id": "12479734",
+      "name": "测面",
+      "font_class": "cemian1",
+      "unicode": "e692",
+      "unicode_decimal": 59026
+    }
+  ]
+}

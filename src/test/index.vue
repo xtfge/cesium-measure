@@ -1,6 +1,14 @@
+<!--
+ * @Author: zhangbo
+ * @E-mail: zhangb@geovis.com.cn
+ * @Date: 2019-12-12 19:02:48
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-01-05 17:06:31
+ * @Desc: 
+ -->
 <template>
   <div id="map">
-    <measureViewer ref="measure"></measureViewer>
+    <measureViewer ref="measure" ></measureViewer>
     <!-- <cesiumMeasure ref="measure"></cesiumMeasure> -->
   </div>
 </template>
@@ -8,7 +16,9 @@
 import measureViewer from "../core/measurePanel";
 export default {
   data() {
-    return {};
+    return {
+      viewer:''
+    };
   },
   components: {
     measureViewer
@@ -36,12 +46,14 @@ export default {
       }
     };
     const viewer = new window.Cesium.Viewer("map", options);
+    viewer.imageryLayers.removeAll();
     const credits = document.getElementsByClassName("cesium-widget-credits");
     credits[0].parentElement.removeChild(credits[0]);
-    window.viewer = viewer;
+    window.cesiumViewer = viewer;
+    this.viewer=viewer;
     this.$refs.measure.init(viewer);
     const model=viewer.entities.add({
-      position:window.Cesium.Cartesian3.fromDegrees(86.5,28),
+      position:window.Cesium.Cartesian3.fromDegrees(106.5,28),
       model:{
         uri:'static/Cesium_Man.glb'
       }

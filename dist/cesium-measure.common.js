@@ -212,6 +212,58 @@ var update = add("0a1d9214", content, true, {"sourceMap":false,"shadowMode":fals
 
 /***/ }),
 
+/***/ "197f":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("24fb")(false);
+// Imports
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__("1de5");
+var ___CSS_LOADER_URL_PURE_IMPORT_0___ = __webpack_require__("b77d");
+var ___CSS_LOADER_URL_PURE_IMPORT_2___ = __webpack_require__("3eaf");
+var ___CSS_LOADER_URL_PURE_IMPORT_3___ = __webpack_require__("5523");
+var ___CSS_LOADER_URL_PURE_IMPORT_4___ = __webpack_require__("2d6f");
+var ___CSS_LOADER_URL_IMPORT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_0___);
+var ___CSS_LOADER_URL_IMPORT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_0___, { hash: "#iefix" });
+var ___CSS_LOADER_URL_IMPORT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_2___);
+var ___CSS_LOADER_URL_IMPORT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_3___);
+var ___CSS_LOADER_URL_IMPORT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_4___, { hash: "#iconfont" });
+// Module
+exports.push([module.i, "@font-face{font-family:iconfont;src:url(" + ___CSS_LOADER_URL_IMPORT_0___ + ");src:url(" + ___CSS_LOADER_URL_IMPORT_1___ + ") format(\"embedded-opentype\"),url(\"data:application/x-font-woff2;charset=utf-8;base64,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\") format(\"woff2\"),url(" + ___CSS_LOADER_URL_IMPORT_2___ + ") format(\"woff\"),url(" + ___CSS_LOADER_URL_IMPORT_3___ + ") format(\"truetype\"),url(" + ___CSS_LOADER_URL_IMPORT_4___ + ") format(\"svg\")}.iconfont_iconfont_jAUoE{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.iconfont_icon-guanbi_2nP9m:before{content:\"\\e606\"}.iconfont_icon-gengduo_1-tVp:before{content:\"\\e607\"}.iconfont_icon-jia_3PG6Q:before{content:\"\\e615\"}.iconfont_icon-jian_3pJJe:before{content:\"\\e616\"}.iconfont_icon-dianshuju_2oS3R:before{content:\"\\e626\"}.iconfont_icon-shanchu_27LYN:before{content:\"\\e636\"}.iconfont_icon-sousuo_28k_l:before{content:\"\\e637\"}.iconfont_icon-xiala_23A7j:before{content:\"\\e638\"}.iconfont_icon-xiaochuangkoulashen_2oXUb:before{content:\"\\e639\"}.iconfont_icon-xianshi_3wA85:before{content:\"\\e63a\"}.iconfont_icon-buxianshi_3eweU:before{content:\"\\e63b\"}.iconfont_icon-xiaokuang_sj2xq:before{content:\"\\e63c\"}.iconfont_icon-xuanzhongxiaokuang_2LiZ8:before{content:\"\\e63d\"}.iconfont_icon-biaoti_1k82t:before{content:\"\\e644\"}.iconfont_icon-wenzibiaohui_3gNId:before{content:\"\\e686\"}.iconfont_icon-shiliangxian_yvgCg:before{content:\"\\e688\"}.iconfont_icon-mianbiao_F2R0G:before{content:\"\\e68a\"}.iconfont_icon-cegao_2tXh3:before{content:\"\\e65e\"}.iconfont_icon-ceju_35GAK:before{content:\"\\e690\"}.iconfont_icon-cemian_1aIfn:before{content:\"\\e692\"}.iconfont_icon-daochu_UVBeI:before{content:\"\\e694\"}.iconfont_icon-daoru_2V5fH:before{content:\"\\e695\"}.iconfont_icon-dingwei_4ywH5:before{content:\"\\e673\"}.iconfont_icon-chongmingming_2CBST:before{content:\"\\e674\"}.iconfont_icon-biankuang_1cuTn:before{content:\"\\e676\"}.iconfont_icon-seban_24Jwk:before{content:\"\\e677\"}.iconfont_icon-sanweimoxing_3rRxJ:before{content:\"\\e678\"}.iconfont_icon-bianji_3hA2c:before{content:\"\\e67a\"}", ""]);
+// Exports
+exports.locals = {
+	"iconfont": "iconfont_iconfont_jAUoE",
+	"icon-guanbi": "iconfont_icon-guanbi_2nP9m",
+	"icon-gengduo": "iconfont_icon-gengduo_1-tVp",
+	"icon-jia": "iconfont_icon-jia_3PG6Q",
+	"icon-jian": "iconfont_icon-jian_3pJJe",
+	"icon-dianshuju": "iconfont_icon-dianshuju_2oS3R",
+	"icon-shanchu": "iconfont_icon-shanchu_27LYN",
+	"icon-sousuo": "iconfont_icon-sousuo_28k_l",
+	"icon-xiala": "iconfont_icon-xiala_23A7j",
+	"icon-xiaochuangkoulashen": "iconfont_icon-xiaochuangkoulashen_2oXUb",
+	"icon-xianshi": "iconfont_icon-xianshi_3wA85",
+	"icon-buxianshi": "iconfont_icon-buxianshi_3eweU",
+	"icon-xiaokuang": "iconfont_icon-xiaokuang_sj2xq",
+	"icon-xuanzhongxiaokuang": "iconfont_icon-xuanzhongxiaokuang_2LiZ8",
+	"icon-biaoti": "iconfont_icon-biaoti_1k82t",
+	"icon-wenzibiaohui": "iconfont_icon-wenzibiaohui_3gNId",
+	"icon-shiliangxian": "iconfont_icon-shiliangxian_yvgCg",
+	"icon-mianbiao": "iconfont_icon-mianbiao_F2R0G",
+	"icon-cegao": "iconfont_icon-cegao_2tXh3",
+	"icon-ceju": "iconfont_icon-ceju_35GAK",
+	"icon-cemian": "iconfont_icon-cemian_1aIfn",
+	"icon-daochu": "iconfont_icon-daochu_UVBeI",
+	"icon-daoru": "iconfont_icon-daoru_2V5fH",
+	"icon-dingwei": "iconfont_icon-dingwei_4ywH5",
+	"icon-chongmingming": "iconfont_icon-chongmingming_2CBST",
+	"icon-biankuang": "iconfont_icon-biankuang_1cuTn",
+	"icon-seban": "iconfont_icon-seban_24Jwk",
+	"icon-sanweimoxing": "iconfont_icon-sanweimoxing_3rRxJ",
+	"icon-bianji": "iconfont_icon-bianji_3hA2c"
+};
+
+/***/ }),
+
 /***/ "1be4":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -230,6 +282,27 @@ module.exports = function (it) {
     throw TypeError(String(it) + ' is not a function');
   } return it;
 };
+
+
+/***/ }),
+
+/***/ "1c79":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("24fb")(false);
+// Imports
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__("1de5");
+var ___CSS_LOADER_URL_PURE_IMPORT_0___ = __webpack_require__("b77d");
+var ___CSS_LOADER_URL_PURE_IMPORT_2___ = __webpack_require__("3eaf");
+var ___CSS_LOADER_URL_PURE_IMPORT_3___ = __webpack_require__("5523");
+var ___CSS_LOADER_URL_PURE_IMPORT_4___ = __webpack_require__("2d6f");
+var ___CSS_LOADER_URL_IMPORT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_0___);
+var ___CSS_LOADER_URL_IMPORT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_0___, { hash: "#iefix" });
+var ___CSS_LOADER_URL_IMPORT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_2___);
+var ___CSS_LOADER_URL_IMPORT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_3___);
+var ___CSS_LOADER_URL_IMPORT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_PURE_IMPORT_4___, { hash: "#iconfont" });
+// Module
+exports.push([module.i, "@font-face{font-family:iconfont;src:url(" + ___CSS_LOADER_URL_IMPORT_0___ + ");src:url(" + ___CSS_LOADER_URL_IMPORT_1___ + ") format(\"embedded-opentype\"),url(\"data:application/x-font-woff2;charset=utf-8;base64,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\") format(\"woff2\"),url(" + ___CSS_LOADER_URL_IMPORT_2___ + ") format(\"woff\"),url(" + ___CSS_LOADER_URL_IMPORT_3___ + ") format(\"truetype\"),url(" + ___CSS_LOADER_URL_IMPORT_4___ + ") format(\"svg\")}.iconfont{font-family:iconfont!important;font-size:16px;font-style:normal;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.icon-guanbi:before{content:\"\\e606\"}.icon-gengduo:before{content:\"\\e607\"}.icon-jia:before{content:\"\\e615\"}.icon-jian:before{content:\"\\e616\"}.icon-dianshuju:before{content:\"\\e626\"}.icon-shanchu:before{content:\"\\e636\"}.icon-sousuo:before{content:\"\\e637\"}.icon-xiala:before{content:\"\\e638\"}.icon-xiaochuangkoulashen:before{content:\"\\e639\"}.icon-xianshi:before{content:\"\\e63a\"}.icon-buxianshi:before{content:\"\\e63b\"}.icon-xiaokuang:before{content:\"\\e63c\"}.icon-xuanzhongxiaokuang:before{content:\"\\e63d\"}.icon-biaoti:before{content:\"\\e644\"}.icon-wenzibiaohui:before{content:\"\\e686\"}.icon-shiliangxian:before{content:\"\\e688\"}.icon-mianbiao:before{content:\"\\e68a\"}.icon-cegao:before{content:\"\\e65e\"}.icon-ceju:before{content:\"\\e690\"}.icon-cemian:before{content:\"\\e692\"}.icon-daochu:before{content:\"\\e694\"}.icon-daoru:before{content:\"\\e695\"}.icon-dingwei:before{content:\"\\e673\"}.icon-chongmingming:before{content:\"\\e674\"}.icon-biankuang:before{content:\"\\e676\"}.icon-seban:before{content:\"\\e677\"}.icon-sanweimoxing:before{content:\"\\e678\"}.icon-bianji:before{content:\"\\e67a\"}", ""]);
 
 
 /***/ }),
@@ -270,6 +343,47 @@ module.exports = function (METHOD_NAME) {
   });
 };
 
+
+/***/ }),
+
+/***/ "1de5":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
 
 /***/ }),
 
@@ -467,6 +581,13 @@ function toComment(sourceMap) {
 
 /***/ }),
 
+/***/ "2d6f":
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/img/iconfont.f615f104.svg";
+
+/***/ }),
+
 /***/ "374f":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -498,6 +619,21 @@ module.exports = DESCRIPTORS ? Object.defineProperties : function defineProperti
   return O;
 };
 
+
+/***/ }),
+
+/***/ "3a10":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("197f");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("5b620073", content, true, {"sourceMap":false,"shadowMode":false});
 
 /***/ }),
 
@@ -552,20 +688,17 @@ defineIterator(String, 'String', function (iterated) {
 
 /***/ }),
 
+/***/ "3eaf":
+/***/ (function(module, exports) {
+
+module.exports = "data:font/woff;base64,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"
+
+/***/ }),
+
 /***/ "3f8c":
 /***/ (function(module, exports) {
 
 module.exports = {};
-
-
-/***/ }),
-
-/***/ "3fa7":
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__("24fb")(false);
-// Module
-exports.push([module.i, "#measurePanel[data-v-7d1deb3c]{position:fixed;width:400px;height:85px;color:#fff;right:7px;border-radius:3px;background:rgba(0,0,0,.7);border:1px solid #01c5fd;-webkit-box-shadow:0 0 5px rgba(1,197,253,.75);box-shadow:0 0 5px rgba(1,197,253,.75);z-index:10}.clostbtn[data-v-7d1deb3c]{font-family:element-icons!important;float:right;margin-right:-10px}.clostbtn[data-v-7d1deb3c]:after{content:\"\\E6DB\"}.el-header[data-v-7d1deb3c]{height:40%!important}.el-main[data-v-7d1deb3c]{height:60%!important;padding:5px 0 0 20px;line-height:60%;vertical-align:middle}.el-main .el-radio[data-v-7d1deb3c],.el-main img[data-v-7d1deb3c]{display:inline-block}.el-main .el-radio[data-v-7d1deb3c]{margin:5px}", ""]);
 
 
 /***/ }),
@@ -583,6 +716,19 @@ module.exports = function (value) {
   }
   return +value;
 };
+
+
+/***/ }),
+
+/***/ "41d7":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("24fb")(false);
+// Imports
+var ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__("1c79");
+exports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);
+// Module
+exports.push([module.i, ".closebtn[data-v-4d15eb8e]{line-height:32px;height:32px;text-align:center;display:inline-block;cursor:pointer;float:right}.closebtn[data-v-4d15eb8e]:hover{color:red}#measurePanel[data-v-4d15eb8e]{position:absolute;background:#171e26;border-radius:4px;z-index:2;right:10px;top:10px;color:#2988cc}.icon-class[data-v-4d15eb8e]{margin:0 5px}.el-header[data-v-4d15eb8e]{height:32px!important;line-height:32px!important;border-bottom:1px solid #1f3c5c;padding:0 5px}.el-header span[data-v-4d15eb8e]{margin:0 5px}.graphic-draw-main[data-v-4d15eb8e]{height:52px;padding:0 5px;background-color:#171e26;vertical-align:middle;color:#2988cc;border-bottom:1px solid #1f3c5c}.graphic-draw-main ul[data-v-4d15eb8e]{cursor:default;padding:0;overflow:hidden;height:48px;margin:0}.graphic-draw-main ul li[data-v-4d15eb8e]{cursor:pointer;float:left;padding:0 0 0;width:65px;height:100%;-webkit-box-sizing:border-box;box-sizing:border-box;list-style:none}.graphic-draw-main ul li:hover i[data-v-4d15eb8e],.graphic-draw-main ul li:hover span[data-v-4d15eb8e]{color:#fff}.graphic-draw-main ul li i[data-v-4d15eb8e]{display:block;height:16px;width:16px;background-size:contain;margin:0 auto;margin-top:8px}.graphic-draw-main ul li span[data-v-4d15eb8e]{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:block;text-align:center;vertical-align:middle;font-size:12px;color:#2988cc;line-height:22px}", ""]);
 
 
 /***/ }),
@@ -985,6 +1131,13 @@ module.exports = function (it, key) {
 
 /***/ }),
 
+/***/ "5523":
+/***/ (function(module, exports) {
+
+module.exports = "data:font/ttf;base64,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"
+
+/***/ }),
+
 /***/ "5692":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1263,7 +1416,7 @@ module.exports = function (NAME) {
 
 exports = module.exports = __webpack_require__("24fb")(false);
 // Module
-exports.push([module.i, "#measurePanel .el-radio{color:#fff}.tip-class{position:fixed;border:1px solid #b6aeae;width:250px;height:30px;line-height:30px;padding-left:10px;background-color:#b6aeae;color:#fff;border-radius:6px 6px 6px 0;pointer-events:none}", ""]);
+exports.push([module.i, ".tip-class{position:fixed;border:1px solid #b6aeae;width:250px;height:30px;line-height:30px;padding-left:10px;background-color:rgba(0,0,0,.53);color:#fff;border-radius:6px 6px 6px 0;pointer-events:none}", ""]);
 
 
 /***/ }),
@@ -1493,6 +1646,24 @@ module.exports = !fails(function () {
 
 /***/ }),
 
+/***/ "8418":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var toPrimitive = __webpack_require__("c04e");
+var definePropertyModule = __webpack_require__("9bf2");
+var createPropertyDescriptor = __webpack_require__("5c6c");
+
+module.exports = function (object, key, value) {
+  var propertyKey = toPrimitive(key);
+  if (propertyKey in object) definePropertyModule.f(object, propertyKey, createPropertyDescriptor(0, value));
+  else object[propertyKey] = value;
+};
+
+
+/***/ }),
+
 /***/ "861d":
 /***/ (function(module, exports) {
 
@@ -1519,17 +1690,6 @@ if (typeof store.inspectSource != 'function') {
 
 module.exports = store.inspectSource;
 
-
-/***/ }),
-
-/***/ "8b13":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_7d1deb3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ad19");
-/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_7d1deb3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_7d1deb3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_6_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_7d1deb3c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -1638,6 +1798,95 @@ module.exports = function (IteratorConstructor, NAME, next) {
   Iterators[TO_STRING_TAG] = returnThis;
   return IteratorConstructor;
 };
+
+
+/***/ }),
+
+/***/ "a022":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("41d7");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__("499e").default
+var update = add("40b9609c", content, true, {"sourceMap":false,"shadowMode":false});
+
+/***/ }),
+
+/***/ "a434":
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+var $ = __webpack_require__("23e7");
+var toAbsoluteIndex = __webpack_require__("23cb");
+var toInteger = __webpack_require__("a691");
+var toLength = __webpack_require__("50c4");
+var toObject = __webpack_require__("7b0b");
+var arraySpeciesCreate = __webpack_require__("65f0");
+var createProperty = __webpack_require__("8418");
+var arrayMethodHasSpeciesSupport = __webpack_require__("1dde");
+
+var max = Math.max;
+var min = Math.min;
+var MAX_SAFE_INTEGER = 0x1FFFFFFFFFFFFF;
+var MAXIMUM_ALLOWED_LENGTH_EXCEEDED = 'Maximum allowed length exceeded';
+
+// `Array.prototype.splice` method
+// https://tc39.github.io/ecma262/#sec-array.prototype.splice
+// with adding support of @@species
+$({ target: 'Array', proto: true, forced: !arrayMethodHasSpeciesSupport('splice') }, {
+  splice: function splice(start, deleteCount /* , ...items */) {
+    var O = toObject(this);
+    var len = toLength(O.length);
+    var actualStart = toAbsoluteIndex(start, len);
+    var argumentsLength = arguments.length;
+    var insertCount, actualDeleteCount, A, k, from, to;
+    if (argumentsLength === 0) {
+      insertCount = actualDeleteCount = 0;
+    } else if (argumentsLength === 1) {
+      insertCount = 0;
+      actualDeleteCount = len - actualStart;
+    } else {
+      insertCount = argumentsLength - 2;
+      actualDeleteCount = min(max(toInteger(deleteCount), 0), len - actualStart);
+    }
+    if (len + insertCount - actualDeleteCount > MAX_SAFE_INTEGER) {
+      throw TypeError(MAXIMUM_ALLOWED_LENGTH_EXCEEDED);
+    }
+    A = arraySpeciesCreate(O, actualDeleteCount);
+    for (k = 0; k < actualDeleteCount; k++) {
+      from = actualStart + k;
+      if (from in O) createProperty(A, k, O[from]);
+    }
+    A.length = actualDeleteCount;
+    if (insertCount < actualDeleteCount) {
+      for (k = actualStart; k < len - actualDeleteCount; k++) {
+        from = k + actualDeleteCount;
+        to = k + insertCount;
+        if (from in O) O[to] = O[from];
+        else delete O[to];
+      }
+      for (k = len; k > len - actualDeleteCount + insertCount; k--) delete O[k - 1];
+    } else if (insertCount > actualDeleteCount) {
+      for (k = len - actualDeleteCount; k > actualStart; k--) {
+        from = k + actualDeleteCount - 1;
+        to = k + insertCount - 1;
+        if (from in O) O[to] = O[from];
+        else delete O[to];
+      }
+    }
+    for (k = 0; k < insertCount; k++) {
+      O[k + actualStart] = arguments[k + 2];
+    }
+    O.length = len - actualDeleteCount + insertCount;
+    return A;
+  }
+});
 
 
 /***/ }),
@@ -1974,21 +2223,6 @@ module.exports = function (argument) {
 
 /***/ }),
 
-/***/ "ad19":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("3fa7");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var add = __webpack_require__("499e").default
-var update = add("145174b3", content, true, {"sourceMap":false,"shadowMode":false});
-
-/***/ }),
-
 /***/ "ae93":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2320,6 +2554,13 @@ module.exports = {
 
 /***/ }),
 
+/***/ "b77d":
+/***/ (function(module, exports) {
+
+module.exports = "data:application/vnd.ms-fontobject;base64,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"
+
+/***/ }),
+
 /***/ "c032":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2356,6 +2597,17 @@ module.exports = function (input, PREFERRED_STRING) {
 
 module.exports = false;
 
+
+/***/ }),
+
+/***/ "c52d":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_4d15eb8e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a022");
+/* harmony import */ var _node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_4d15eb8e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_4d15eb8e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_vue_style_loader_index_js_ref_8_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_3_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_4_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_measurePanel_vue_vue_type_style_index_0_id_4d15eb8e_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -3052,12 +3304,15 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.function.name.js
 var es_function_name = __webpack_require__("b0c0");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"12aaed35-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/core/measurePanel.vue?vue&type=template&id=7d1deb3c&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.measurePanelShow),expression:"measurePanelShow"}],attrs:{"id":"measurePanel"}},[_c('el-header',[_vm._v(" 地图量算 ")]),_c('el-main',[_c('el-radio',{attrs:{"label":"distance"},model:{value:(_vm.mode),callback:function ($$v) {_vm.mode=$$v},expression:"mode"}},[_vm._v("距离量算")]),_c('el-radio',{attrs:{"label":"area"},model:{value:(_vm.mode),callback:function ($$v) {_vm.mode=$$v},expression:"mode"}},[_vm._v("面积量算")]),_c('el-radio',{attrs:{"label":"height"},model:{value:(_vm.mode),callback:function ($$v) {_vm.mode=$$v},expression:"mode"}},[_vm._v("高度量算")]),_c('img',{staticStyle:{"margin-left":"20px","position":"absolute","width":"24px","cursor":"pointer"},attrs:{"src":_vm.controlImage,"title":_vm.curMeasureStatus},on:{"click":_vm.toggleClick}}),_c('img',{staticStyle:{"margin-left":"60px","position":"absolute","width":"24px","cursor":"pointer"},attrs:{"src":_vm.removeImage,"title":"一键删除"},on:{"click":_vm.removeAll}})],1)],1)}
+// EXTERNAL MODULE: ./src/assets/css/iconfont.css
+var iconfont = __webpack_require__("3a10");
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"0c4085a2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/core/measurePanel.vue?vue&type=template&id=4d15eb8e&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.measurePanelShow),expression:"measurePanelShow"}],attrs:{"id":"measurePanel"}},[_c('el-container',[_c('el-header',[_c('span',[_vm._v("地图量算")]),_c('span',{staticClass:"closebtn iconfont icon-guanbi",on:{"click":function($event){_vm.measurePanelShow=false}}})]),_c('el-main',{staticClass:"graphic-draw-main"},[_c('ul',[_c('li',[_c('i',{staticClass:"iconfont icon-ceju icon-class",class:{'selected-graphic':_vm.menuSelected['distance']},attrs:{"title":"距离测量"},on:{"click":function($event){return _vm.toggleClick('distance')}}}),_c('span',{class:{'selected-graphic':_vm.menuSelected['area']},on:{"click":function($event){return _vm.toggleClick('distance')}}},[_vm._v("距离")])]),_c('li',[_c('i',{staticClass:"iconfont icon-cemian icon-class",class:{'selected-graphic':_vm.menuSelected['area']},attrs:{"title":"面积测量"},on:{"click":function($event){return _vm.toggleClick('area')}}}),_c('span',{class:{'selected-graphic':_vm.menuSelected['area']},on:{"click":function($event){return _vm.toggleClick('area')}}},[_vm._v("面积")])]),_c('li',[_c('i',{staticClass:"iconfont icon-cegao icon-class",class:{'selected-graphic':_vm.menuSelected['height']},attrs:{"title":"添加多边形"},on:{"click":function($event){return _vm.toggleClick('height')}}}),_c('span',{class:{'selected-graphic':_vm.menuSelected['height']},on:{"click":function($event){return _vm.toggleClick('height')}}},[_vm._v("高度")])]),_c('li',[_c('i',{staticClass:"iconfont icon-shanchu icon-class",attrs:{"title":"清除全部"},on:{"click":_vm.removeAll}}),_c('span',{on:{"click":_vm.removeAll}},[_vm._v("清除")])])])])],1)],1)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/core/measurePanel.vue?vue&type=template&id=7d1deb3c&scoped=true&
+// CONCATENATED MODULE: ./src/core/measurePanel.vue?vue&type=template&id=4d15eb8e&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.symbol.js
 var es_symbol = __webpack_require__("a4d3");
@@ -3070,6 +3325,9 @@ var es_symbol_iterator = __webpack_require__("d28b");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.iterator.js
 var es_array_iterator = __webpack_require__("e260");
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/es.array.splice.js
+var es_array_splice = __webpack_require__("a434");
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.to-string.js
 var es_object_to_string = __webpack_require__("d3b7");
@@ -3090,6 +3348,13 @@ var es_number_to_fixed = __webpack_require__("b680");
 
 
 
+
+
+
+
+
+
+
 /**
  * @Author:zhangbo
  * @Date:2019-12-12
@@ -3101,17 +3366,35 @@ var radiansPerDegree = Math.PI / 180.0; //角度转化为弧度(rad)
 
 var degreesPerRadian = 180.0 / Math.PI; //弧度转化为角度
 
+var graphic_color = Cesium.Color.fromCssColorString('rgba(247,224,32,0.6)');
+var pointStyle = {
+  pixelSize: 8,
+  color: graphic_color
+};
+var labelStyle = {
+  font: '36px sans-serif',
+  fillColor: Cesium.Color.WHITE,
+  style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+  // outlineWidth: 2,
+  showBackground: true,
+  scale: 0.5,
+  verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+  pixelOffset: new Cesium.Cartesian2(20, -20),
+  heightReference: Cesium.HeightReference.NONE
+};
+
 var PolylineGraphic = function () {
   function _(viewer) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     this.viewer = viewer;
+    viewer.scene.postProcessStages.fxaa.enabled = false;
     this.options = {
       polyline: options
     };
     this.positions = options.positions || [];
     this.entity = this._init();
     this.distance = this.getDistance;
-    this.idDestroyed = false;
+    this.idDestroyed = false, this.labels = [];
   }
 
   _.prototype._init = function () {
@@ -3129,9 +3412,32 @@ var PolylineGraphic = function () {
 
   _.prototype.remove = function () {
     this.viewer.entities.remove(this.entity);
+    var _iteratorNormalCompletion = true;
+    var _didIteratorError = false;
+    var _iteratorError = undefined;
+
+    try {
+      for (var _iterator = this.labels[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+        var p = _step.value;
+        this.viewer.entities.remove(p);
+      }
+    } catch (err) {
+      _didIteratorError = true;
+      _iteratorError = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion && _iterator.return != null) {
+          _iterator.return();
+        }
+      } finally {
+        if (_didIteratorError) {
+          throw _iteratorError;
+        }
+      }
+    }
   };
 
-  _.prototype.destory = function () {
+  _.prototype.destroy = function () {
     this.options = {};
     this.positions = [];
     this.entity = undefined;
@@ -3140,25 +3446,42 @@ var PolylineGraphic = function () {
   };
 
   _.prototype.stopEdit = function () {
-    this.options.label = this.createLabel();
-    this.options.polyline.positions = this.positions;
-    this.options.position = this.positions[this.positions.length - 1];
-    this.remove();
-    this.entity = this.viewer.entities.add(this.options);
+    var label = this.createLabel();
+    var position = this.positions[this.positions.length - 1]; // this.options.position=this.positions[this.positions.length-1]
+
+    var lastlabel = this.labels.pop();
+    this.viewer.entities.remove(lastlabel); // this.remove()
+
+    this.labels.push(this.viewer.entities.add({
+      position: position,
+      label: label
+    }));
+  };
+
+  _.prototype.pushNode = function (cartesian) {
+    this.positions.push(cartesian);
+    var lo = labelStyle;
+    var dis = this.getDistance();
+    dis = dis > 1000 ? (dis / 1000).toFixed(2) + 'km' : dis.toFixed(2) + 'm';
+    lo.text = this.positions.length > 1 ? dis : '起点';
+    var label = this.viewer.entities.add({
+      position: cartesian,
+      point: pointStyle,
+      label: lo
+    });
+    this.labels.push(label);
+  };
+
+  _.prototype.popNode = function () {
+    this.positions.pop();
+    var label = this.labels.pop();
+    this.viewer.entities.remove(label);
   };
 
   _.prototype.createLabel = function () {
-    var length = this.getDistance() > 10 * 1000 ? '长' + (this.getDistance() / 1000).toFixed(2) + 'km' : this.getDistance().toFixed(2) + 'm';
-    var label = {
-      text: length,
-      font: '18px sans-serif',
-      fillColor: Cesium.Color.GOLD,
-      style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-      outlineWidth: 2,
-      verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-      pixelOffset: new Cesium.Cartesian2(20, -20),
-      heightReference: Cesium.HeightReference.NONE
-    };
+    var length = this.getDistance() > 10 * 1000 ? '总长度' + (this.getDistance() / 1000).toFixed(2) + 'km' : '总长度' + this.getDistance().toFixed(2) + 'm';
+    var label = labelStyle;
+    label.text = length;
     return label;
   };
 
@@ -3189,13 +3512,14 @@ var PolylineGraphic = function () {
 var HeightGraphic = function () {
   function _(viewer, options) {
     this.viewer = viewer;
+    viewer.scene.postProcessStages.fxaa.enabled = false;
     this.options = {
       polyline: options
     };
     this.positions = options.positions || [];
     this.entity = this._init();
     this.idDestroyed = false;
-    this._depthTestAgainstTerrain = this.viewer.scene.globe.depthTestAgainstTerrain;
+    this._depthTestAgainstTerrain = this.viewer.scene.globe.depthTestAgainstTerrain, this.nodes = [];
   }
 
   _.prototype._init = function () {
@@ -3219,9 +3543,48 @@ var HeightGraphic = function () {
     if (this.tmpPolyline) {
       this.viewer.entities.remove(this.tmpPolyline);
     }
+
+    var _iteratorNormalCompletion2 = true;
+    var _didIteratorError2 = false;
+    var _iteratorError2 = undefined;
+
+    try {
+      for (var _iterator2 = this.nodes[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+        var p = _step2.value;
+        this.viewer.entities.remove(p);
+      }
+    } catch (err) {
+      _didIteratorError2 = true;
+      _iteratorError2 = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion2 && _iterator2.return != null) {
+          _iterator2.return();
+        }
+      } finally {
+        if (_didIteratorError2) {
+          throw _iteratorError2;
+        }
+      }
+    }
   };
 
-  _.prototype.destory = function () {
+  _.prototype.pushNode = function (cartesian) {
+    this.positions.push(cartesian);
+    var p = this.viewer.entities.add({
+      position: cartesian,
+      point: pointStyle
+    });
+    this.nodes.push(p);
+  };
+
+  _.prototype.popNode = function () {
+    this.positions.pop();
+    var p = this.nodes.pop();
+    this.viewer.entities.remove(p);
+  };
+
+  _.prototype.destroy = function () {
     this.options = {};
     this.positions = [];
     this.entity = undefined;
@@ -3257,7 +3620,7 @@ var HeightGraphic = function () {
       polyline: {
         positions: pts,
         material: new Cesium.PolylineDashMaterialProperty({
-          color: Cesium.Color.RED
+          color: graphic_color
         }),
         width: 3
       }
@@ -3265,16 +3628,8 @@ var HeightGraphic = function () {
   };
 
   _.prototype.createLabel = function () {
-    var label = {
-      text: '高' + this.getHeight() + 'm',
-      font: '18px sans-serif',
-      fillColor: Cesium.Color.GOLD,
-      style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-      outlineWidth: 2,
-      verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-      pixelOffset: new Cesium.Cartesian2(20, -20),
-      heightReference: Cesium.HeightReference.NONE
-    };
+    var label = labelStyle;
+    label.text = '高' + this.getHeight() + 'm';
     return label;
   };
 
@@ -3300,13 +3655,14 @@ var PolygonGraphic = function () {
   function _(viewer) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     this.viewer = viewer;
+    viewer.scene.postProcessStages.fxaa.enabled = false;
     this.options = {
       polygon: options
     };
     this.positions = options.hierarchy || [];
     this.entity = this._init();
     this.area = this.getArea();
-    this.idDestroyed = false;
+    this.idDestroyed = false, this.nodes = [];
   }
 
   _.prototype._init = function () {
@@ -3324,9 +3680,47 @@ var PolygonGraphic = function () {
 
   _.prototype.remove = function () {
     this.viewer.entities.remove(this.entity);
+    var _iteratorNormalCompletion3 = true;
+    var _didIteratorError3 = false;
+    var _iteratorError3 = undefined;
+
+    try {
+      for (var _iterator3 = this.nodes[Symbol.iterator](), _step3; !(_iteratorNormalCompletion3 = (_step3 = _iterator3.next()).done); _iteratorNormalCompletion3 = true) {
+        var p = _step3.value;
+        this.viewer.entities.remove(p);
+      }
+    } catch (err) {
+      _didIteratorError3 = true;
+      _iteratorError3 = err;
+    } finally {
+      try {
+        if (!_iteratorNormalCompletion3 && _iterator3.return != null) {
+          _iterator3.return();
+        }
+      } finally {
+        if (_didIteratorError3) {
+          throw _iteratorError3;
+        }
+      }
+    }
   };
 
-  _.prototype.destory = function () {
+  _.prototype.pushNode = function (cartesian) {
+    this.positions.push(cartesian);
+    var p = this.viewer.entities.add({
+      position: cartesian,
+      point: pointStyle
+    });
+    this.nodes.push(p);
+  };
+
+  _.prototype.popNode = function () {
+    this.positions.pop();
+    var p = this.nodes.pop();
+    this.viewer.entities.remove(p);
+  };
+
+  _.prototype.destroy = function () {
     this.options = {};
     this.positions = [];
     this.entity = undefined;
@@ -3335,25 +3729,19 @@ var PolygonGraphic = function () {
   };
 
   _.prototype.stopEdit = function () {
-    this.options.label = this.createLabel();
-    this.options.polygon.hierarchy = new Cesium.PolygonHierarchy(this.positions);
-    this.options.position = this.positions[this.positions.length - 1];
-    this.remove();
-    this.entity = this.viewer.entities.add(this.options);
+    // this.options.label = this.createLabel()
+    var position = this.positions[this.positions.length - 1];
+    var label = this.createLabel();
+    this.nodes.push(this.viewer.entities.add({
+      position: position,
+      label: label
+    }));
   };
 
   _.prototype.createLabel = function () {
     var area = this.getArea() < 0.1 ? (this.getArea() * 1000 * 1000).toFixed(2) + 'm²' : this.getArea().toFixed(2) + 'km²';
-    var label = {
-      text: area,
-      font: '18px sans-serif',
-      fillColor: Cesium.Color.GOLD,
-      style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-      outlineWidth: 2,
-      verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-      pixelOffset: new Cesium.Cartesian2(20, -20),
-      heightReference: Cesium.HeightReference.NONE
-    };
+    var label = labelStyle;
+    label.text = '面积:' + area;
     return label;
   };
 
@@ -3465,6 +3853,44 @@ var PolygonGraphic = function () {
 
 
 
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3500,6 +3926,8 @@ var PolygonGraphic = function () {
 
 var measurePanelvue_type_script_lang_js_Cesium = window.Cesium;
 var graphics = [];
+var measureManager = [];
+var viewer = undefined;
 /* harmony default export */ var measurePanelvue_type_script_lang_js_ = ({
   name: "cesiumMeasure",
   data: function data() {
@@ -3513,18 +3941,26 @@ var graphics = [];
       distanceManager: null,
       heightManager: null,
       entities: [],
-      positions: []
+      positions: [],
+      menuSelected: {}
     };
   },
-  props: {},
+  props: {
+    viewer: null
+  },
   computed: {},
   mounted: function mounted() {
     var self = this;
     self.name = "";
     window.distanceManagers = [];
     window.areaManagers = [];
-    window.heightManagers = []; // const viewer = window.viewer;
+    window.heightManagers = [];
+
+    if (this.viewer) {
+      this.init(this.viewer);
+    } // const viewer = window.viewer;
     //const scene=viewer.scene
+
   },
   methods: {
     createTip: function createTip() {
@@ -3557,29 +3993,30 @@ var graphics = [];
         tip.style.display = "none";
       }
     },
-    init: function init(viewer) {
+    init: function init(cesiumViewer) {
       var _this = this;
 
       var self = this;
+      viewer = cesiumViewer;
       var handler = new measurePanelvue_type_script_lang_js_Cesium.ScreenSpaceEventHandler(viewer.canvas);
       var tooltip = this.createTip();
       this.tipVisible(false);
       handler.setInputAction(function (e) {
+        if (!measurePanelvue_type_script_lang_js_Cesium.defined(window.graphicManager)) {
+          return;
+        }
+
         var pixel = e.position;
         var ray = viewer.camera.getPickRay(pixel);
-        var cartesian = viewer.scene.globe.pick(ray, viewer.scene); // const cartesian = viewer.camera.pickEllipsoid(
-        //   pixel,
-        //   viewer.scene.globe.ellipsoid
-        // );
-        // const cartesian=viewer.scene.pickPosition(pixel)
+        var cartesian = viewer.scene.globe.pick(ray, viewer.scene);
 
         if (self.mode === "height") {
-          _this.updateTipText('请单击地图添加终点.');
+          _this.updateTipText("请单击地图添加终点.");
 
-          self.positions.pop();
+          window.graphicManager.popNode();
           self.heightMeasureHandler(pixel);
 
-          if (_this.positions.length === 2) {
+          if (window.graphicManager.positions.length === 2) {
             _this.stopDraw();
           }
 
@@ -3587,19 +4024,19 @@ var graphics = [];
         }
 
         if (cartesian) {
-          self.positions.push(cartesian);
+          window.graphicManager.pushNode(cartesian);
         }
       }, measurePanelvue_type_script_lang_js_Cesium.ScreenSpaceEventType.LEFT_CLICK);
       handler.setInputAction(function (e) {
+        if (!measurePanelvue_type_script_lang_js_Cesium.defined(window.graphicManager)) {
+          return;
+        }
+
         var pixel = e.endPosition;
-        tooltip.style.left = pixel.x + 10 + 'px';
-        tooltip.style.top = pixel.y + 10 + 'px';
+        tooltip.style.left = pixel.x + 10 + "px";
+        tooltip.style.top = pixel.y + 10 + "px";
         var ray = viewer.camera.getPickRay(pixel);
-        var cartesian = viewer.scene.globe.pick(ray, viewer.scene); // const cartesian = viewer.camera.pickEllipsoid(
-        //   pixel,
-        //   viewer.scene.globe.ellipsoid
-        // );
-        //const cartesian=viewer.scene.pickPosition(pixel)
+        var cartesian = viewer.scene.globe.pick(ray, viewer.scene);
 
         if (!cartesian) {
           return;
@@ -3608,12 +4045,12 @@ var graphics = [];
         // }
 
 
-        if (self.positions.length > 1) {
-          self.positions.pop();
+        if (window.graphicManager.positions.length > 1) {
+          window.graphicManager.popNode();
         }
 
-        if (self.positions.length > 0) {
-          self.positions.push(cartesian);
+        if (window.graphicManager.positions.length > 0) {
+          window.graphicManager.pushNode(cartesian);
         }
       }, measurePanelvue_type_script_lang_js_Cesium.ScreenSpaceEventType.MOUSE_MOVE);
       handler.setInputAction(function () {
@@ -3622,9 +4059,12 @@ var graphics = [];
       }, measurePanelvue_type_script_lang_js_Cesium.ScreenSpaceEventType.RIGHT_CLICK);
     },
     heightMeasureHandler: function heightMeasureHandler(pixel) {
-      var viewer = window.viewer;
+      if (!measurePanelvue_type_script_lang_js_Cesium.defined(window.graphicManager)) {
+        return;
+      }
+
       var position = viewer.scene.pickPosition(pixel);
-      this.positions.push(position);
+      window.graphicManager.pushNode(position);
     },
     stopDraw: function stopDraw() {
       if (window.graphicManager === undefined) {
@@ -3632,23 +4072,24 @@ var graphics = [];
       }
 
       window.graphicManager.stopEdit();
-      graphics.push(window.graphicManager.entity);
-      window.graphicManager.destory();
+      graphics.push(window.graphicManager.entity); // window.graphicManager.destory();
+
       this.tipVisible(false);
       this.positions = [];
       this.curMeasureStatus = "开始测量";
+      measureManager.push(window.graphicManager);
       window.graphicManager = null;
     },
     removeAll: function removeAll() {
-      var viewer = window.viewer;
       var _iteratorNormalCompletion = true;
       var _didIteratorError = false;
       var _iteratorError = undefined;
 
       try {
-        for (var _iterator = graphics[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
-          var e = _step.value;
-          viewer.entities.remove(e);
+        for (var _iterator = measureManager[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+          var m = _step.value;
+          m.remove();
+          m.destroy();
         }
       } catch (err) {
         _didIteratorError = true;
@@ -3664,9 +4105,11 @@ var graphics = [];
           }
         }
       }
+
+      measureManager.splice(0);
     },
-    toggleClick: function toggleClick() {
-      var viewer = window.viewer;
+    toggleClick: function toggleClick(mode) {
+      this.mode = mode;
 
       if (window.graphicManager) {
         this.stopDraw();
@@ -3675,32 +4118,33 @@ var graphics = [];
 
       this.tipVisible(true);
       this.curMeasureStatus = "结束测量";
+      var color = measurePanelvue_type_script_lang_js_Cesium.Color.fromCssColorString("rgba(247,224,32,1)");
 
-      switch (this.mode) {
+      switch (mode) {
         case "distance":
           window.graphicManager = new PolylineGraphic(viewer, {
             positions: this.positions,
-            material: measurePanelvue_type_script_lang_js_Cesium.Color.RED,
+            material: color,
             width: 3,
             clampToGround: true
           });
-          this.updateTipText("单击添加节点，右击结束量算.");
+          this.updateTipText("左键测量，右键结束.");
           break;
 
         case "area":
           window.graphicManager = new PolygonGraphic(viewer, {
             hierarchy: this.positions,
-            material: measurePanelvue_type_script_lang_js_Cesium.Color.RED,
+            material: color,
             width: 3,
             heightReference: measurePanelvue_type_script_lang_js_Cesium.HeightReference.CLAMP_TO_GROUND
           });
-          this.updateTipText("单击添加节点，右击结束量算.");
+          this.updateTipText("左键测量，右键结束");
           break;
 
         case "height":
           window.graphicManager = new HeightGraphic(viewer, {
             positions: this.positions,
-            material: measurePanelvue_type_script_lang_js_Cesium.Color.RED,
+            material: color,
             width: 3
           });
           this.updateTipText("请单击地图确定起点.");
@@ -3712,8 +4156,8 @@ var graphics = [];
 });
 // CONCATENATED MODULE: ./src/core/measurePanel.vue?vue&type=script&lang=js&
  /* harmony default export */ var core_measurePanelvue_type_script_lang_js_ = (measurePanelvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/core/measurePanel.vue?vue&type=style&index=0&id=7d1deb3c&scoped=true&lang=css&
-var measurePanelvue_type_style_index_0_id_7d1deb3c_scoped_true_lang_css_ = __webpack_require__("8b13");
+// EXTERNAL MODULE: ./src/core/measurePanel.vue?vue&type=style&index=0&id=4d15eb8e&lang=scss&scoped=true&
+var measurePanelvue_type_style_index_0_id_4d15eb8e_lang_scss_scoped_true_ = __webpack_require__("c52d");
 
 // EXTERNAL MODULE: ./src/core/measurePanel.vue?vue&type=style&index=1&lang=css&
 var measurePanelvue_type_style_index_1_lang_css_ = __webpack_require__("374f");
@@ -3829,13 +4273,23 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "7d1deb3c",
+  "4d15eb8e",
   null
   
 )
 
 /* harmony default export */ var measurePanel = (component.exports);
 // CONCATENATED MODULE: ./src/index.js
+
+
+/*
+ * @Author: zhangbo
+ * @E-mail: zhangb@geovis.com.cn
+ * @Date: 2019-12-13 15:01:34
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-01-05 16:04:08
+ * @Desc: 
+ */
 
  // 为组件添加 install 方法，用于按需引入
 

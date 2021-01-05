@@ -1,3 +1,11 @@
+/*
+ * @Author: zhangbo
+ * @E-mail: zhangb@geovis.com.cn
+ * @Date: 2019-12-13 15:04:57
+ * @LastEditors: zhangbo
+ * @LastEditTime: 2019-12-26 19:08:13
+ * @Desc: 
+ */
 const path = require('path');
 
 function resolve(dir) {
@@ -11,6 +19,13 @@ module.exports = {
   // 强制内联CSS
   productionSourceMap: false,
   css: {
+    loaderOptions: {
+      sass: {
+        prependData: `
+          @import "@/assets/css/global.scss";
+        `
+      }
+    },
     // 启用 CSS modules
     requireModuleExtension: false,
     // 是否使用css分离插件

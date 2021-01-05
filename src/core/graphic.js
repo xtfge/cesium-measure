@@ -7,16 +7,34 @@
 const Cesium = window.Cesium
 const radiansPerDegree = Math.PI / 180.0;//角度转化为弧度(rad) 
 const degreesPerRadian = 180.0 / Math.PI;//弧度转化为角度
+const color=Cesium.Color.fromCssColorString('rgba(247,224,32,0.6)')
+const pointStyle={
+    pixelSize: 8,
+    color:color
+}
+const labelStyle={
+    font: '36px sans-serif',
+    fillColor: Cesium.Color.WHITE,
+    style: Cesium.LabelStyle.FILL_AND_OUTLINE,
+    // outlineWidth: 2,
+    showBackground:true,
+    scale:0.5,
+    verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+    pixelOffset: new Cesium.Cartesian2(20, -20),
+    heightReference: Cesium.HeightReference.NONE
+}
 const PolylineGraphic = (function () {
     function _(viewer, options = {}) {
         this.viewer = viewer
+        viewer.scene.postProcessStages.fxaa.enabled = false;
         this.options = {
             polyline: options
         }
         this.positions = options.positions || [];
         this.entity = this._init();
         this.distance = this.getDistance
-        this.idDestroyed=false
+        this.idDestroyed=false,
+        this.labels=[]
     }
     _.prototype._init = function () {
         const _self = this;
@@ -30,8 +48,11 @@ const PolylineGraphic = (function () {
     }
     _.prototype.remove = function () {
         this.viewer.entities.remove(this.entity)
+        for(let p of this.labels){
+            this.viewer.entities.remove(p)
+        }
     }
-    _.prototype.destory=function(){
+    _.prototype.destroy=function(){
         this.options={}
         this.positions=[]
         this.entity=undefined
@@ -39,26 +60,41 @@ const PolylineGraphic = (function () {
         this.idDestroyed=true
     }
     _.prototype.stopEdit = function () {
-        this.options.label = this.createLabel()
-        this.options.polyline.positions=this.positions
-        this.options.position=this.positions[this.positions.length-1]
-        this.remove()
-        this.entity=this.viewer.entities.add(this.options)
+        const label=this.createLabel()
+        const position=this.positions[this.positions.length-1]
+        // this.options.position=this.positions[this.positions.length-1]
+        const lastlabel=this.labels.pop()
+        this.viewer.entities.remove(lastlabel)
+        // this.remove()
+        this.labels.push(this.viewer.entities.add({
+            position:position,
+            label:label
+        }))
+    }
+    _.prototype.pushNode=function(cartesian){
+        this.positions.push(cartesian)
+        const lo=labelStyle
+        let dis=this.getDistance();
+        dis=dis>1000?(dis/1000).toFixed(2)+'km':dis.toFixed(2)+'m'
+        lo.text=this.positions.length>1?dis:'起点'
+        const label=this.viewer.entities.add({
+            position:cartesian,
+            point:pointStyle,
+            label:lo
+        })
+        this.labels.push(label)
+    }
+    _.prototype.popNode=function(){
+        this.positions.pop()
+        const label=this.labels.pop()
+        this.viewer.entities.remove(label)
     }
     _.prototype.createLabel = function () {
         const length=this.getDistance()>10*1000?
-        '长'+(this.getDistance()/1000).toFixed(2)+'km':
-        this.getDistance().toFixed(2)+'m'
-        const label = {
-            text: length,
-            font: '18px sans-serif',
-            fillColor: Cesium.Color.GOLD,
-            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-            outlineWidth: 2,
-            verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-            pixelOffset: new Cesium.Cartesian2(20, -20),
-            heightReference: Cesium.HeightReference.NONE
-        }
+        '总长度'+(this.getDistance()/1000).toFixed(2)+'km':
+        '总长度'+this.getDistance().toFixed(2)+'m'
+        const label = labelStyle
+        label.text=length
         return label
     }
     _.prototype.getDistance = function () {
@@ -84,13 +120,15 @@ const PolylineGraphic = (function () {
 const HeightGraphic=(function(){
     function _(viewer,options){
         this.viewer = viewer
+        viewer.scene.postProcessStages.fxaa.enabled = false;
         this.options = {
             polyline: options
         }
         this.positions = options.positions || [];
         this.entity = this._init();
         this.idDestroyed=false
-        this._depthTestAgainstTerrain=this.viewer.scene.globe.depthTestAgainstTerrain
+        this._depthTestAgainstTerrain=this.viewer.scene.globe.depthTestAgainstTerrain,
+        this.nodes=[]
     }
     _.prototype._init = function () {
         this.viewer.scene.globe.depthTestAgainstTerrain=true
@@ -108,8 +146,24 @@ const HeightGraphic=(function(){
         if(this.tmpPolyline){
             this.viewer.entities.remove(this.tmpPolyline)
         }
+        for(let p of this.nodes){
+            this.viewer.entities.remove(p)
+        }
     }
-    _.prototype.destory=function(){
+    _.prototype.pushNode=function(cartesian){
+        this.positions.push(cartesian)
+        const p=this.viewer.entities.add({
+            position:cartesian,
+            point:pointStyle
+        })
+        this.nodes.push(p)
+    }
+    _.prototype.popNode=function(){
+        this.positions.pop()
+        const p=this.nodes.pop()
+        this.viewer.entities.remove(p)
+    }
+    _.prototype.destroy=function(){
         this.options={}
         this.positions=[]
         this.entity=undefined
@@ -144,23 +198,15 @@ const HeightGraphic=(function(){
         return this.viewer.entities.add({
             polyline:{
                 positions:pts,
-                material:new Cesium.PolylineDashMaterialProperty({color:Cesium.Color.RED}),
+                material:new Cesium.PolylineDashMaterialProperty({color:color}),
                 width:3
             }
         })
 
     }
     _.prototype.createLabel = function () {
-        const label = {
-            text: '高'+this.getHeight()+'m',
-            font: '18px sans-serif',
-            fillColor: Cesium.Color.GOLD,
-            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-            outlineWidth: 2,
-            verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-            pixelOffset: new Cesium.Cartesian2(20, -20),
-            heightReference: Cesium.HeightReference.NONE
-        }
+        const label = labelStyle
+        label.text='高'+this.getHeight()+'m'
         return label
     }
     _.prototype.getHeight=function(){
@@ -180,13 +226,15 @@ const HeightGraphic=(function(){
 const PolygonGraphic = (function () {
     function _(viewer, options = {}) {
         this.viewer = viewer
+        viewer.scene.postProcessStages.fxaa.enabled = false;
         this.options = {
             polygon: options
         }
         this.positions = options.hierarchy || [];
         this.entity = this._init();
         this.area = this.getArea()
-        this.idDestroyed=false
+        this.idDestroyed=false,
+        this.nodes=[]
     }
     _.prototype._init = function () {
         const _self = this;
@@ -200,8 +248,24 @@ const PolygonGraphic = (function () {
     }
     _.prototype.remove = function () {
         this.viewer.entities.remove(this.entity)
+        for(let p of this.nodes){
+            this.viewer.entities.remove(p)
+        }
     }
-    _.prototype.destory=function(){
+    _.prototype.pushNode=function(cartesian){
+        this.positions.push(cartesian)
+        const p=this.viewer.entities.add({
+            position:cartesian,
+            point:pointStyle
+        })
+        this.nodes.push(p)
+    }
+    _.prototype.popNode=function(){
+        this.positions.pop()
+        const p=this.nodes.pop()
+        this.viewer.entities.remove(p)
+    }
+    _.prototype.destroy=function(){
         this.options={}
         this.positions=[]
         this.entity=undefined
@@ -209,27 +273,21 @@ const PolygonGraphic = (function () {
         this.idDestroyed=true
     }
     _.prototype.stopEdit = function () {
-        this.options.label = this.createLabel()
-        this.options.polygon.hierarchy=new Cesium.PolygonHierarchy(this.positions)
-        this.options.position=this.positions[this.positions.length-1]
-        this.remove()
-        this.entity=this.viewer.entities.add(this.options)
+        // this.options.label = this.createLabel()
+        const position=this.positions[this.positions.length-1]
+        const label=this.createLabel()
+        this.nodes.push(this.viewer.entities.add({
+            position:position,
+            label:label
+        }))
     }
 
     _.prototype.createLabel = function () {
         const area=this.getArea()<0.1?
         (this.getArea()*1000*1000).toFixed(2)+'m²':
         this.getArea().toFixed(2)+'km²'
-        const label = {
-            text: area,
-            font: '18px sans-serif',
-            fillColor: Cesium.Color.GOLD,
-            style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-            outlineWidth: 2,
-            verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
-            pixelOffset: new Cesium.Cartesian2(20, -20),
-            heightReference: Cesium.HeightReference.NONE
-        }
+        const label = labelStyle;
+        label.text='面积:'+area
         return label
     }
     _.prototype.getDistance = function () {
