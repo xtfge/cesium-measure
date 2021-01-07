@@ -7,12 +7,25 @@
  * @Desc: 
  */
 const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
 
 module.exports = {
+  configureWebpack: {
+    plugins: [
+      new CopyWebpackPlugin({
+        patterns: [
+          {
+            from: "./node_modules/cesium/Build/Cesium",
+            to: "Cesium",
+          },
+        ],
+      }),
+    ],
+  },
   publicPath: process.env.NODE_ENV==='development'? './':'../dist',
   assetsDir: 'static',
   lintOnSave: true,
@@ -21,7 +34,7 @@ module.exports = {
   css: {
     loaderOptions: {
       sass: {
-        prependData: `
+        additionalData: `
           @import "@/assets/css/global.scss";
         `
       }
