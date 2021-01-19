@@ -1,11 +1,3 @@
-<!--
- * @Author: zhangbo
- * @E-mail: zhangb@geovis.com.cn
- * @Date: 2019-12-12 19:02:48
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2021-01-05 17:06:31
- * @Desc: 
- -->
 <template>
   <div id="map">
     <measureViewer ref="measure" ></measureViewer>

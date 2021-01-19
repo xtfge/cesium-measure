@@ -1,9 +1,3 @@
-<!--
- @Author:zhangbo
- @Date:2019-12-12
- @E-mail:zhangb@geovie.com.cn
- @Desc:量算工具面板
--->
 <template>
   <div id="measurePanel" v-show="measurePanelShow">
     <el-container>
@@ -60,7 +54,7 @@
               @click="removeAll"
             >清除</span>
           </li>
-  
+
         </ul>
       </el-main>
     </el-container>
@@ -355,5 +349,3 @@ export default {
   pointer-events: none;
 }
 </style>
-
-

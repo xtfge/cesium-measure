@@ -1,11 +1,3 @@
-/*
- * @Author: zhangbo
- * @E-mail: zhangb@geovis.com.cn
- * @Date: 2019-12-13 15:04:57
- * @LastEditors: zhangbo
- * @LastEditTime: 2019-12-26 19:08:13
- * @Desc: 
- */
 const path = require('path');
 
 function resolve(dir) {
@@ -13,7 +5,7 @@ function resolve(dir) {
 }
 
 module.exports = {
-  publicPath: process.env.NODE_ENV==='development'? './':'../dist',
+  publicPath: process.env.NODE_ENV === 'development' ? './' : '../dist',
   assetsDir: 'static',
   lintOnSave: true,
   // 强制内联CSS
@@ -44,13 +36,13 @@ module.exports = {
     config.module
       .rule('fonts')
       .use('url-loader')
-        .loader('url-loader')
-        .tap(options => {
-          // 修改它的选项...
-          options.limit=100000
-          options.name='static/fonts/[name].[ext]'
-          return options
-        })
+      .loader('url-loader')
+      .tap(options => {
+        // 修改它的选项...
+        options.limit = 100000
+        options.name = 'static/fonts/[name].[ext]'
+        return options
+      })
     config.resolve.alias
       .set('@', resolve('src'))
   }
